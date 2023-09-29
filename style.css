@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding-block: 60px !important;
+}
+.hero-content {
+  background-image: url(hero-bg.jpg);
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.productivity {
+  background-color: #0d1117 !important;
+}
+
+.octicon {
+  fill: aliceblue;
+}
+
+.navbar-toggler-icon {
+  fill: aliceblue !important;
+}
+
+.nav-input {
+  background-color: rgb(61, 56, 56) !important;
+  color: aliceblue !important;
+}
+::placeholder {
+  color: rgb(184, 190, 196) !important;
+}
+.hero-drone {
+  width: 150px;
+  height: 100px;
+  top: 10%;
+  right: 10px;
+  animation: myAnim 20s ease 0s infinite normal forwards;
+}
+
+.logo {
+  fill: antiquewhite;
+}
+@keyframes myAnim {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(8px);
+  }
+  80% {
+    transform: translateY(6.4px);
+  }
+  90% {
+    transform: translateY(-6.4px);
+  }
+}
+
+.hero-div {
+  height: 100vh !important;
+  display: flex;
+  align-items: center;
+  margin-top: 100px !important;
+}
+
+.hero-card {
+  max-width: 573px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+}
+
+.sub-btn {
+  background-color: #6f3fc8 !important;
+}
+
+.hero-border {
+  border-top: 5px solid gray !important;
+}
+
+.productivity-text {
+  color: #7ee787;
+}
+.productivity-title {
+  padding: 5px 8px !important;
+  border: 2px solid #7ee787 !important;
+}
+
+.collaboration-text {
+  color: #ffa28b !important;
+}
+.collaboration-title {
+  padding: 5px 8px !important;
+  border: 2px solid #ffa28b !important;
+}
+.security-title {
+  border: 2px solid blue !important;
+}
+
+.pro-img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.hero {
+  background-color: #161b22;
+  color: aliceblue !important;
+}
+
+.illo-img {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: -250px;
+  right: 100px;
+}
+
+.illo-port {
+  width: 400px;
+  height: 200px;
+}
+
+.pro-row {
+  background-color: #161b22 !important;
+}
+
+.pro-card {
+  background-color: #161b22 !important;
+}
+.card-text {
+  padding: 30px !important;
+}
+
+.login {
+  background-image: url(footer-galaxy.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.astro_boy {
+  position: absolute !important;
+  top: 100px;
+  left: 250px;
+  transform: translate(50%, 50%);
+  width: 450;
+  height: 500px;
+}
+
+.social {
+  background-color: #161b22 !important;
+}
+
+.social-links {
+  font-size: 12px !important;
+  padding: 0 5px !important;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+
+@media only screen and (max-width: 425px) {
+  .hero-line {
+    height: 450px;
+  }
+
+  .hero-col {
+    margin-left: 20px;
+  }
+
+  .hero-drone {
+    width: 400px;
+    height: 200px;
+  }
+  .illo-img {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: -300px;
+    right: 50px;
+  }
+
+  .illo-port {
+    width: 200px;
+    height: 100px;
+  }
+
+  .row-img {
+    width: 300px;
+    height: 200px;
+    margin-block: 40px;
+  }
+  .card-text {
+    padding: 32px !important;
+  }
+
+  .card-img {
+    height: 300px !important;
+  }
+
+  .login-globe {
+    width: 400px;
+    height: 450px;
+  }
+  .astro_boy {
+    position: absolute !important;
+    top: 10%;
+
+    transform: translate(50%, 50%);
+    width: 450;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-drone {
+    width: 80px;
+    height: 50px;
+  }
+
+  .illo-port {
+    width: 200px;
+    height: 125px;
+  }
+  .illo-img {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+    right: 50px;
+  }
+
+  .row-img {
+    width: 300px !important;
+    height: 200px;
+    margin-block: 40px;
+  }
+  .astro_boy {
+    position: absolute !important;
+    top: 10%;
+    left: -10%;
+    transform: translate(50%, 50%);
+    width: 450;
+    height: 500px;
+  }
+}
